@@ -1,0 +1,7 @@
+O projeto "Dispensador de àlcool em gel" tem como principal objetivo a construção de um aparelho que tenha a função de dispensar àlcool
+em gel na quantidade necessária sem que o usuário precise encostar no mesmo. 
+Também terá uma funcionalidade, onde o usuário por meio de outro dispositivo, conseguirá acionar o dispensador utilizando o protocolo MQTT.
+De forma resumida, quando o sensor for ativado, ele enviará uma informação para a bomba d'agua e a mesma será acionada. Assim que a bomba
+for acionada, ela impulsionará o àlcool em gel por meio de um tubo de aquário que por sua vez dispensará o àlcool na mão do usuário ou em 
+qualquer superfície que seja. Para que o usuário desfrute das funcionalidades de forma correta, basta ele aproximar à mão no sensor e 
+aguardar o àlcool em gel ser dispensado.
