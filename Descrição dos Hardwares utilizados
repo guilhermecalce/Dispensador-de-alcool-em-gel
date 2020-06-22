@@ -1,1 +1,23 @@
 
+Para o desenvolvimento do projeto "Dispensador de àlcool" utilizando arduíno, foram utilizados os seguintes hardwares:
+
+1- Bomba D'água do tipo submersa de 5V. Este componente possuí uma vedação que protege seu circuito elétrico com proteção IP68.
+Sua função dentro do projeto é disparar/dispensar o àlcool que através de um tubo de plástico chegará até as mãos do usuário.
+
+2- Sensor de Distância Ultrassônico. Este componente nos permite medir a distância com resolução de 3mm, além disso, é possível 
+detectar movimentos entre 2cm e 400cm. Sua função dentro do projeto será detectar a aproximação da mão do usuário e através disso 
+informar quando o jato deverá ou não ser impulsionado.
+
+3- Placa Arduino Uno com 14 portas digitais e 6 analógicas. Este componente pode ser considerado o coração do projeto, pois todo
+o desenvolvimento do projeto ocorre ao redor dele. Além disso,  essa placa é composta por um microcontrolador, circuitos de entrada
+e saída que consequentemente podem ser conectas a um computador. 
+
+4- Fios Jumpers. São os cabos adequadamente preparados para realizar a conexão entre os componentes do circuito, deixando viável a 
+condução de eletricidade entre os componentes.
+
+5- Protoboard também conhecida como placa de ensaio, se trata de uma placa que possuí diversos orifícios que permite a montagem de
+circuitos e projetos em fases iniciais.
+
+6- NodeMCU. Trata-se de uma placa onde através dela é possível ter a disponibilidade de I/Os, regulamento de tensão, entradas USB
+para efetuar a conexão com o computador e consequemente realizar a programação em alguma IDE, e além disso, realizar a conexão com 
+WiFi. Sua função dentro do projeto será realizar a comunicação entre os dispositivos, ele coletará os dados e através do MQTT (Message Queue Telemetry Transport).
