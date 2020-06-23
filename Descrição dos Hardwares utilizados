@@ -21,3 +21,7 @@ circuitos e projetos em fases iniciais.
 6- NodeMCU. Trata-se de uma placa onde através dela é possível ter a disponibilidade de I/Os, regulamento de tensão, entradas USB
 para efetuar a conexão com o computador e consequemente realizar a programação em alguma IDE, e além disso, realizar a conexão com 
 WiFi. Sua função dentro do projeto será realizar a comunicação entre os dispositivos, ele coletará os dados e através do MQTT (Message Queue Telemetry Transport).
+
+7 - Sensor de nível de água. Este terá a função de informar quando o recipiente está vazio ou próximo de estar vazio. A partir disso, pode
+mos realizar alguma ação, como por exemplo, enviar uma mensagem ao administrador do sistema informando ele que o volume do recipiente está
+baixo.
